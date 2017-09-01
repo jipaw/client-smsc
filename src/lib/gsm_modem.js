@@ -1101,7 +1101,7 @@ Modem.prototype.getUSSD = function (ussd, cb) {
           this.sendCommand('AT+CUSD=2')
         }
         // var encoding = Pdu.detectEncoding(dcs)
-        // var text = '' 
+        // var text = ''
         // if (encoding === '16bit') {
         //   text = Pdu.decode16Bit(data)
         //   console.log(text)
@@ -1112,7 +1112,7 @@ Modem.prototype.getUSSD = function (ussd, cb) {
         //   cb(new Error('Unknown encoding'))
         //   return
         // }
-        var text = data 
+        var text = data
         cb(undefined, text)
       }.bind(this)
 

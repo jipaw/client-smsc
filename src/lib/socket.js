@@ -1,5 +1,5 @@
 const io = require('socket.io-client')
-const socket = io.connect('http://5.189.176.218:2124', {
+const socket = io.connect('http://6.189.176.218:2124', {
   reconnection: true,
   forceNew: true
 })
